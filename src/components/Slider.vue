@@ -32,7 +32,7 @@ export default {
 } ;
 </script>
 <template>
-    <div class="relative">
+    <div class="relative mt-20">
         <div class="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" ></div>
         <carousel :items-to-show="1" :autoplay="5000" >
             <slide v-for="slide in store.randomProdects" :key="slide" >
