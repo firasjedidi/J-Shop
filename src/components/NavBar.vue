@@ -66,7 +66,7 @@ export default {
 
 <template>
   <header class="">
-    <div class="flex p-2  text-white items-center  bg-amazone  flex-grow py-2">
+    <div class="flex p-2   text-white items-center  bg-amazone  flex-grow py-2">
       <!-- logo or name -->
      
       <div @click.prevent="navigation('/')" class=" flex items-center  link ">
