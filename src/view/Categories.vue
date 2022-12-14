@@ -32,9 +32,9 @@ export default {
     <div class=" bg-gray-100">
         <NavBar/>
         <Sign/>
-        <main class="maw-w-2xl mx-auto">
-            <div class="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:  mx-auto">
-                <div v-for="product in store.categorie" :key="product.id">
+        <main class="maw-w-2xl mx-auto ">
+            <div class="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  mx-auto  ">
+                <div class="mt-24" v-for="product in store.categorie" :key="product.id">
                     <Product 
                         :product="product"
                     />

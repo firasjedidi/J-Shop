@@ -35,12 +35,12 @@ export default {
 }
 </script>
 <template>
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 ">
         <NavBar/>
         <Sign/>
         <main class="lg:flex max-w-3xl mx-auto ">
             <!-- list item  -->
-            <div  class="flex-grow m-5 shadow-sm" >
+            <div  class="flex-grow m-5 shadow-sm mt-24" >
                 <div class="flex flex-col p-6 space-y-2 bg-white">
                     <h1 class="text-2xl mx-auto border-b pb-4 " v-if="useCart.items.length === 0">
                         <picture>
@@ -71,7 +71,7 @@ export default {
                 </div>
             </div>
             <!-- total $ -->
-            <div class="flex flex-col  bg-white  p-10 shadow-md" v-if="useCart.items">
+            <div class="flex flex-col mt-24 bg-white  p-10 shadow-md" v-if="useCart.items">
                 <h2 class="whitespace-nowrap"> 
                     Subtotal ({{useCart.items.length}} items ):
                     <span class="font-semibold mx-1">

@@ -74,9 +74,9 @@ export default {
     <div class="bg-gray-100 ">
         <NavBar/>
         <Sign/>
-        <main class="lg:flex max-w-3xl mx-auto my-5">
+        <main class="lg:flex max-w-3xl mx-auto ">
             <div class="flex-grow m-5 shadow-sm">
-                <div class="flex flex-col p-5 space-y-10 bg-white">
+                <div class="flex flex-col p-5 space-y-10 bg-white mt-24">
                     <div  class="grid grid-cols-8 ">
                         
                         <div class="col-span-3 flex flex-col space-y-2 my-auto justify-start">
