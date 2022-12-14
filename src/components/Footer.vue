@@ -58,7 +58,7 @@ export default {
                         <div>
                         <p 
                             v-for="cat in store.categories.slice(0,store.categories.length/2)" 
-                            :key="cat" @click.prevent=" router.push({name:'Categories',params:{name:cat.name}})" 
+                            :key="cat" @click.prevent=" router.push({name:'Categories',params:{name:cat}})" 
                             class="link2 text-gray-300 p-1"
                         >
                             {{cat}}
@@ -66,7 +66,7 @@ export default {
                         <div>
                         <p 
                             v-for="cat in store.categories.slice(store.categories.length/2,store.categories.length)" 
-                            :key="cat" @click.prevent=" router.push({name:'Categories',params:{name:cat.name}})" 
+                            :key="cat" @click.prevent=" router.push({name:'Categories',params:{name:cat}})" 
                             class="link2 text-gray-300 p-1"
                         >
                             {{cat}}
@@ -82,7 +82,7 @@ export default {
                         <p class="text-gray-300 text-sm">if you want see more of this developer </p>
                         <p class="text-gray-300 text-sm">you should check his links </p>
                         <p  class="link2 py-2 ">
-                            <a href="http://https://fakeapi.platzi.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://dummyjson.com/" target="_blank" rel="noopener noreferrer">
                                 Api for this  web
                             </a>
                         </p>
