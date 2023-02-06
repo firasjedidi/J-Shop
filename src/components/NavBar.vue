@@ -78,7 +78,7 @@ export default {
       </div>
       <!-- search -->
       
-      <div class="link flex text-black mx-4 items-center h-10 rounded-md flex-grow  bg-yellow-400 hover:bg-yellow-500 ">
+      <div class="link flex text-black mx-4 items-center h-10 rounded-md flex-grow  ">
         <input @keyup.enter="search()" @input="onChange($event)" v-model="searchQuery" placeholder="search..." class="p-1 h-full w-7 flex-grow rounded-l-md flex-shrink  focus:outline-none px-2 "  type="text" >
         <font-awesome-icon @click.prevent="search()"  class="p-2 md:p-4" icon="fa-solid fa-magnifying-glass" />
       </div>
