@@ -65,7 +65,7 @@ export default {
 </script>
 
 <template>
-  <header class="fixed  t-0 z-50 overflow-hidden w-full">
+  <header class="fixed  top-0 z-50 overflow-hidden w-full">
     <div class="flex p-2  text-white items-center  bg-amazone  flex-grow py-2">
       <!-- logo or name -->
      
